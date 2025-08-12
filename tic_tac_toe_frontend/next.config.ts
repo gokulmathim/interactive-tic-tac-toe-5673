@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   output: "export",
   // Reduce build overhead in CI by relaxing checks and strict mode
   reactStrictMode: false,
-  swcMinify: false, // disabling minification can speed up builds in constrained CI environments
+
   images: {
     unoptimized: true, // recommended for static export
   },

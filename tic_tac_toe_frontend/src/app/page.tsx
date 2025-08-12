@@ -1,8 +1,5 @@
 "use client";
 
-export const dynamic = "force-static";
-export const revalidate = false;
-
 import TicTacToe from "../components/TicTacToe";
 
 export default function Home() {
