@@ -1,9 +1,14 @@
+"use client";
+
+export const dynamic = "force-static";
+export const revalidate = false;
+
+import TicTacToe from "../components/TicTacToe";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white flex items-center justify-center">
-      <h1 className="text-black text-4xl font-light">
-        tic_tac_toe_frontend is being generated
-      </h1>
+    <main className="min-h-screen bg-white flex items-start sm:items-center justify-center">
+      <TicTacToe />
     </main>
   );
 }
